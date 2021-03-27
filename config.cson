@@ -1,0 +1,42 @@
+"*":
+  Hydrogen:
+    gateways: '''
+      [{
+        "name": "Remote server",
+        "options": {
+          "baseUrl": "http://localhost:8888",
+        }
+      }]
+    '''
+    globalMode: true
+    languageMappings: "{ \"sagemath\": \"Sage\", \"python\": \"magicpython\" }"
+  "autocomplete-python":
+    useKite: false
+  core:
+    telemetryConsent: "no"
+  editor:
+    fontSize: 18
+    lineHeight: 1.75
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "1a71acde-aaec-49ce-a555-e567e98fcbaf"
+  github:
+    remoteFetchProtocol: "ssh"
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E305"
+    ]
+    maxLineLength: 200
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui":
+    fontSize: 16
+  "preview-inline":
+    previewMode: "all"
+  "python-autopep8":
+    formatOnSave: true
+  welcome:
+    showOnStartup: false
